@@ -11,7 +11,7 @@ public class testaGetESet {
         paulo.setCpf("23.456.789-11");
         paulo.setProfissao("Auxiliar de limpeza");
         conta.setTitular(paulo);
-        conta.getTitular().setProfissao("Programador");
+
 
         System.out.println(conta.getTitular().getNome());
 
