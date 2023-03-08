@@ -13,7 +13,7 @@ public class testaGetESet {
         conta.setTitular(paulo);
 
 
-        System.out.println(conta.getTitular().getNome());
+        System.out.println(conta.getTitular().getNome()+ " " +conta.getTitular().getCpf());
 
 
     }

@@ -3,7 +3,7 @@ public class Conta {
     private double saldo;
     private int agencia;
     private int numero;
-    private Cliente titular;  // Atributo titular do tipo classe
+    private Cliente titular ;  // Atributo titular do tipo classe
 
     public void deposita(double valor) {  // Metodo 1
         this.saldo += valor;
