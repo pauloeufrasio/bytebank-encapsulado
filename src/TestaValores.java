@@ -1,11 +1,9 @@
 public class TestaValores {
     public static void main(String[] args) {
-        Conta conta = new Conta(1452,120);
+        Conta conta = new Conta(1452,120); // Testando construtor
 
-        // Conta esta incosistente as regras de negocio
-       // conta.setAgencia(-50);
-        //conta.setNumero(-350);
+        Conta conta2 = new Conta(1458,2012); // Testando total++ na classe (Conta)
 
-       // System.out.println(conta.getAgencia());
+
     }
 }

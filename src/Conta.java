@@ -4,14 +4,17 @@ public class Conta {
     private int agencia;
     private int numero;
     private Cliente titular ;  // Atributo titular do tipo classe
-    // Criando Construtor
-    public Conta (int agencia, int numero){
+
+    private static int total;
+    public Conta (int agencia, int numero){ // Criando Construtor
+        total ++;
+        System.out.println("O total de conta é  " + total);
         this.agencia = agencia;
         this.numero = numero;
         System.out.println("Estou criando uma conta "
                 + this.numero
                 + " e a agencia é "
-                +this.agencia);
+                + this.agencia);
     }
     public Conta() {
 
